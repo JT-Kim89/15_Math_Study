@@ -1615,7 +1615,7 @@ def calculus_integral(output_dir: Path):
     for m in ns:
         left_m = np.linspace(0, 6, m, endpoint=False)
         estimates.append(np.sum(f(left_m)) * 6 / m)
-    true_est = np.trapz(f(xs), xs)
+    true_est = np.trapezoid(f(xs), xs)
     axes[1].plot(ns, estimates, label="left sum")
     axes[1].axhline(true_est, color="black", linestyle="--", label="fine-grid trapz")
     axes[1].set_xlabel("number of intervals")
@@ -1886,7 +1886,7 @@ def bayes_coin(output_dir: Path):
         b = beta + i - successes[:i].sum()
         log_pdf = (a - 1) * np.log(x) + (b - 1) * np.log(1 - x)
         pdf = np.exp(log_pdf - log_pdf.max())
-        pdf = pdf / np.trapz(pdf, x)
+        pdf = pdf / np.trapezoid(pdf, x)
         ax.plot(x, pdf, label=f"after {i} tosses")
     ax.set_xlabel("coin bias theta")
     ax.set_ylabel("posterior density")
@@ -2368,7 +2368,7 @@ def functional_projection(output_dir: Path):
     x = np.linspace(0, 1, 500)
     f = x * (1 - x) + 0.08 * np.sin(10 * np.pi * x)
     basis = [np.sqrt(2) * np.sin(k * np.pi * x) for k in range(1, 5)]
-    coeffs = [np.trapz(f * b, x) for b in basis]
+    coeffs = [np.trapezoid(f * b, x) for b in basis]
     proj = sum(c * b for c, b in zip(coeffs, basis))
     fig, axes = plt.subplots(1, 2, figsize=(10, 4))
     axes[0].plot(x, f, label="function")
@@ -2514,7 +2514,7 @@ def bayesian_statistics(output_dir: Path):
     def beta_shape(a, b):
         log_pdf = (a - 1) * np.log(theta) + (b - 1) * np.log(1 - theta)
         pdf = np.exp(log_pdf - log_pdf.max())
-        return pdf / np.trapz(pdf, theta)
+        return pdf / np.trapezoid(pdf, theta)
     predictive = RNG.beta(post_a, post_b, size=5000)
     future = RNG.binomial(20, predictive)
     fig, axes = plt.subplots(1, 2, figsize=(10, 4))
