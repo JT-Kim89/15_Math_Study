@@ -3,6 +3,9 @@
 - 학년: 4학년
 - 영역: 데이터·AI 관련
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [손실함수와 벡터화](./ch01_손실함수와_벡터화/notebook.ipynb)
 - 02. [PCA와 SVD](./ch02_PCA와_SVD/notebook.ipynb)

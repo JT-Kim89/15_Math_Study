@@ -3,6 +3,9 @@
 - 학년: 4학년
 - 영역: 확률·통계 심화
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [랜덤워크와 Brownian 운동](./ch01_랜덤워크와_Brownian_운동/notebook.ipynb)
 - 02. [Poisson 과정](./ch02_Poisson_과정/notebook.ipynb)

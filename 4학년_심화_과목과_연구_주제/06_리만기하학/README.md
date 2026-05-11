@@ -3,6 +3,9 @@
 - 학년: 4학년
 - 영역: 기하학 심화
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [Riemannian 계량](./ch01_Riemannian_계량/notebook.ipynb)
 - 02. [측지선 방정식](./ch02_측지선_방정식/notebook.ipynb)

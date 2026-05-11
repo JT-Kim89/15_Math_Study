@@ -3,6 +3,9 @@
 - 학년: 4학년
 - 영역: 응용수학
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [Monte Carlo 방법](./ch01_Monte_Carlo_방법/notebook.ipynb)
 - 02. [유한차분](./ch02_유한차분/notebook.ipynb)

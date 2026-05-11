@@ -3,6 +3,9 @@
 - 학년: 4학년
 - 영역: 해석학 심화
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [Fourier 급수](./ch01_Fourier_급수/notebook.ipynb)
 - 02. [Fourier 변환](./ch02_Fourier_변환/notebook.ipynb)

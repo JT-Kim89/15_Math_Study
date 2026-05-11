@@ -3,6 +3,9 @@
 - 학년: 4학년
 - 영역: 응용수학
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [복리와 무차익](./ch01_복리와_무차익/notebook.ipynb)
 - 02. [옵션 payoff](./ch02_옵션_payoff/notebook.ipynb)

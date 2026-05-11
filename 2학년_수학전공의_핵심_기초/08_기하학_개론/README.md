@@ -3,6 +3,9 @@
 - 학년: 2학년
 - 영역: 기하학
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [Euclidean 구성](./ch01_Euclidean_구성/notebook.ipynb)
 - 02. [Affine 변환](./ch02_Affine_변환/notebook.ipynb)

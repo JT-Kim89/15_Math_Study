@@ -10,6 +10,9 @@
 - 기본 개념 예제: VaR와 Expected Shortfall을 표본분포에서 계산한다.
 - 실제 응용 예제: 포트폴리오 손실의 꼬리위험을 관리한다.
 
+## 이론 보강
+자세한 정의, 핵심 정리, 계산 절차, 증명 관점은 `notebook.ipynb`의 “이론 정리” 섹션에 들어 있습니다.
+
 ## 실행
 ```powershell
 jupyter lab

@@ -3,6 +3,9 @@
 - 학년: 3학년
 - 영역: 최적화
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [가능영역](./ch01_가능영역/notebook.ipynb)
 - 02. [Simplex 아이디어](./ch02_Simplex_아이디어/notebook.ipynb)

@@ -10,6 +10,9 @@
 - 기본 개념 예제: 기하 Brownian 운동으로 주가 경로를 생성한다.
 - 실제 응용 예제: 옵션 가격과 위험을 Monte Carlo로 추정한다.
 
+## 이론 보강
+자세한 정의, 핵심 정리, 계산 절차, 증명 관점은 `notebook.ipynb`의 “이론 정리” 섹션에 들어 있습니다.
+
 ## 실행
 ```powershell
 jupyter lab

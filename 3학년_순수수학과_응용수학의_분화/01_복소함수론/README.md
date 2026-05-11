@@ -3,6 +3,9 @@
 - 학년: 3학년
 - 영역: 복소해석
 
+## 과목 이론 노트
+- [THEORY.md](./THEORY.md): 각 챕터의 정의, 핵심 정리, 증명 관점, 주의점을 과목 단위로 정리한 문서
+
 ## 챕터 노트북
 - 01. [복소수와 복소평면](./ch01_복소수와_복소평면/notebook.ipynb)
 - 02. [해석함수와 Cauchy-Riemann](./ch02_해석함수와_Cauchy-Riemann/notebook.ipynb)
